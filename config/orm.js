@@ -28,8 +28,11 @@ const orm = {
     },
 
     // Action Delete
-    delete: function (tableName, id, cb) {
-        const queryString = `DELETE FROM  ${tableName} WHERE id=${id};`
+    delete: function (tableName, condition, cb) {
+        const queryString = "DELETE FROM " + tableName;
+        queryString += " WHERE ";
+        queryString += condition;
+
         connection.query(queryString, function (err, result) {
             if (err) throw err;
             cb(result);
