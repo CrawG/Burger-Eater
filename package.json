@@ -1,0 +1,27 @@
+{
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "Bootcamp Week 13 Homework - Burger Eater",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0",
+        "mysql": "^2.16.0"
+    },
+    "devDependencies": {
+        "handlebars-helper-css": "^0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CrawG/Burger-Eater.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CrawG/Burger-Eater/issues"
+    },
+    "homepage": "https://github.com/CrawG/Burger-Eater#readme"
+}
