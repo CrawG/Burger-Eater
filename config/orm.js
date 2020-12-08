@@ -29,7 +29,7 @@ const orm = {
 
     // Action Delete
     deleteOne: function (tableName, condition, cb) {
-        const queryString = "DELETE FROM " + tableName;
+        let queryString = "DELETE FROM " + tableName;
         queryString += " WHERE ";
         queryString += condition;
 
