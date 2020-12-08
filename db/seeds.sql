@@ -3,5 +3,5 @@ VALUES
 ("Hamburger", false),
 ("Cheeseburger", false), 
 ("Bacon Cheeseburger", false),
-("All American Burger", false), 
+("BBQ Burger", false), 
 ("Veggie Burger", false);

@@ -1,0 +1,49 @@
+
+<div class="card-body ml-5">
+  <div class="card text-center">
+
+    <h2 class="card-title mt-2">Burger Eating Contest</h2>
+    <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devoured=true}}
+        {{/unless}}
+        {{/each}}
+    </ul>
+  </div>
+</div>
+
+<h2 class="text-center ml-5 mt-2"></h2>
+
+
+<div class="card-body ml-5 mt-2">
+  <div class="card text-center">
+
+    <h2 class="card-title mt-2">Burgers You've Eaten</h2>
+    <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=false}}
+        {{/if}}
+        {{/each}}
+    </ul>
+  </div>
+</div>
+
+<br>
+
+<div class="card-body ml-5">
+  <div class="card text-center">
+
+    <h2 class="card-title mt-2">Add A Burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label class="font-weight-bold" for="burger">Burger Name:</label>
+        <input type="text" id="ca" name="name">
+      </div>
+      <button class="btn btn-primary" type="submit">Add Burger</button>
+    </form>
+  </div>
+
+</div>
