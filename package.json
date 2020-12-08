@@ -1,5 +1,5 @@
 {
-    "name": "note-taker",
+    "name": "burger-eater",
     "version": "1.0.0",
     "description": "Bootcamp Week 13 Homework - Burger Eater",
     "main": "server.js",
@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/CrawG/Burger-Eater.git"
+        "url": "git+https://github.com/CrawG/Burger-Eater"
     },
     "bugs": {
         "url": "https://github.com/CrawG/Burger-Eater/issues"
