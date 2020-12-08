@@ -20,8 +20,8 @@ const burger = {
         })
     },
     // Delete One
-    deleteOne: function(condition, cb) {
-        orm.deleteOne("burgers", condition, function(res) {
+    deleteOne: function(id, cb) {
+        orm.deleteOne("burgers", id, function(res) {
           cb(res);
         });
       }
