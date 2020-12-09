@@ -1,6 +1,6 @@
 const express = require("express");
 
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 8080;
 
 // Creates express app
 const app = express();
@@ -23,10 +23,7 @@ var routes = require("./controllers/burgers_controller.js");
 // Use Routes
 app.use(routes);
 
-// app.listen(PORT, function () {
-//   console.log("App now listening at localhost:" + PORT);
-// });
+app.listen(PORT, function () {
+  console.log("App now listening at localhost:" + PORT);
+});
 
-app.listen(process.env.PORT || 3306, function() {
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-  });
