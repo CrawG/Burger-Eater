@@ -38,7 +38,8 @@ img {
 }
 
 .card-body {
-background: #faebd7;
+  border-radius: 15px;
+  background: #faebd7;
 }
 
 .create-form {
