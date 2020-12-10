@@ -9,9 +9,9 @@ This is a "burger logger" app with MySQL, Node, Express, Handlebars and a homema
 
 [Deployed Burger-Eater App on Heroku](https://mysterious-ridge-16031.herokuapp.com/)
 
-* Eat-Da-Burger! is a restaurant app that lets users  the names of burgers they'd like to eat.
+* Eat-Da-Burger! is a restaurant app that lets users add the names of burgers they'd like to eat.
 
-* Whenever a user submits a burger's name in the "Eat Da Burger" section, the app will display the burger on the top of the page in the "Burger Eating Contest" section, waiting to be eaten or deleted.
+* Whenever a user submits a burger's name in the "Add Da Burger" section, the app will display the burger on the top of the page in the "Burger Eating Contest" section, waiting to be eaten or deleted.
 
 * Each burger in the waiting area has an `Eat Me` button. When the user clicks it, the burger will move to the mid-section of the page called "Burgers You've Eaten."
 
